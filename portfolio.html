@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- Mirrored from preview.colorlib.com/theme/thecharity/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Mar 2021 11:37:28 GMT -->
   <head>
-    <title>Rab Da Banda Foundation</title>
+    <title>Hello World</title>
 
     <meta charset="utf-8" />
     <meta
@@ -64,7 +64,7 @@
             >
               <div class="site-branding d-flex align-items-center">
                 <a class="d-block" href="index-2.html" rel="home"
-                  ><img class="d-block" src="#" alt="logo"
+                  ><img class="d-block" src="images/logo.png" alt="logo"
                 /></a>
               </div>
               <nav
@@ -108,13 +108,32 @@
         <div class="row portfolio-container">
           <div class="col-12 col-md-6 col-lg-4 portfolio-item">
             <div class="portfolio-cont">
-              <a href="#"><img src="images/1.jpg" alt="" /></a>
+              <a href="#"
+                ><!-- Trigger the Modal -->
+                <img
+                  id="myImg"
+                  src="images/1.jpg"
+                  alt="Snow"
+                  style="width: 100%; max-width: 300px" />
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01" />
+
+                  <!-- Modal Caption (Image Text) -->
+                  <div id="caption"></div></div
+              ></a>
               <h3 class="entry-title">
                 <a href="#">Toys for Children Campaign</a>
               </h3>
               <h4>2018 Causes</h4>
             </div>
           </div>
+
           <div class="col-12 col-md-6 col-lg-3 portfolio-item">
             <div class="portfolio-cont">
               <a href="#"><img src="images/2.jpg" alt="" /></a>
@@ -500,6 +519,7 @@
                   consectetur adipiscing elit. Mauris tempus vestib ulum
                   mauris.Lorem ipsum dolo.
                 </p>
+
                 <ul class="d-flex flex-wrap align-items-center">
                   <li>
                     <a href="#"><i class="fa fa-pinterest-p"></i></a>
