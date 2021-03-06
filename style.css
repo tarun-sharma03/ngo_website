@@ -907,6 +907,14 @@ ul.tabs-nav .tab-nav.active {
   background: rgba(21, 21, 21, 0.9);
 }
 
+.content3 {
+  padding-bottom: 1px;
+}
+
+.content1 {
+  padding-bottom: 100px;
+}
+
 .welcome-content2 {
   width: 950px;
   padding-left: 50px;
