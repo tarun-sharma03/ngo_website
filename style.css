@@ -2313,3 +2313,9 @@ ul.tabs-nav .tab-nav.active {
   background: #131212;
   text-align: center;
 }
+
+.welcome-content3 {
+  padding-left: 20%;
+  width: 175%;
+  padding-right: 20%;
+}
