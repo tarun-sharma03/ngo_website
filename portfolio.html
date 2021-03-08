@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/swiper.min.css" />
 
     <link rel="stylesheet" href="style.css" />
+
+
+
   </head>
   <body class="single-page portfolio">
     <header class="site-header">
@@ -73,12 +76,12 @@
                 <ul
                   class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center"
                 >
-                  <li class="current-menu-item">
+                  <li >
                     <a href="index-2.html">Home</a>
                   </li>
                   <li><a href="about.html">About us</a></li>
                   <li><a href="causes.html">Causes</a></li>
-                  <li><a href="portfolio.html">Gallery</a></li>
+                  <li class="current-menu-item"><a href="portfolio.html">Gallery</a></li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -117,7 +120,7 @@
                   style="width: 100%; max-width: 300px" />
 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal" class="modal" style="height: 800px; width: 800px; align-self: center; margin-left: 500px; margin-top: 150px;">
                   <!-- The Close Button -->
                   <span class="close">&times;</span>
 
@@ -629,6 +632,30 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+    modal.style.display = "none";
+    }
+    
+    </script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.collapsible.min.js"></script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
