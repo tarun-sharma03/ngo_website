@@ -232,6 +232,11 @@ a:active {
   color: #ff5a00;
 }
 
+.current-menu-item {
+  border-bottom: 3px solid #ff5a00;
+  color: #ff5a00;
+}
+
 /*
 # Menu SHopping Cart
 --------------------------------*/
