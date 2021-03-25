@@ -178,10 +178,15 @@
     $(".portfolio-item:hidden").slice(0, 9).addClass("visible");
   });
 
-  $(".tab").click(function () {
-    $(".tab").removeClass("current-menu-item");
-    $(this).addClass("current-menu-item");
-  });
+  // $("ul li a").click(function () {
+  //   $("li a").removeClass("current-menu-item");
+  //   $(this).addClass("current-menu-item");
+  // });
+
+  // $(".tab").click(function () {
+  //   $(".tab").removeClass("current-menu-item");
+  //   $(this).addClass("current-menu-item");
+  // });
 
   //   $(".tab1").click(function () {
   //     $(".tab").removeClass("current-menu-item");
